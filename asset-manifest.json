@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.493c65cd.chunk.css",
-    "main.js": "/portfolio/static/js/main.6f5cd68b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6f5cd68b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.cb943748.chunk.css",
+    "main.js": "/portfolio/static/js/main.e974979e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e974979e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.611d5448.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.611d5448.js.map",
-    "static/js/2.38ef67db.chunk.js": "/portfolio/static/js/2.38ef67db.chunk.js",
-    "static/js/2.38ef67db.chunk.js.map": "/portfolio/static/js/2.38ef67db.chunk.js.map",
+    "static/js/2.e741739c.chunk.js": "/portfolio/static/js/2.e741739c.chunk.js",
+    "static/js/2.e741739c.chunk.js.map": "/portfolio/static/js/2.e741739c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d57ea3c2da847bd0928a045fad201b5d.js": "/portfolio/precache-manifest.d57ea3c2da847bd0928a045fad201b5d.js",
+    "precache-manifest.b621e1792fe74782d948e0151573e881.js": "/portfolio/precache-manifest.b621e1792fe74782d948e0151573e881.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.493c65cd.chunk.css.map": "/portfolio/static/css/main.493c65cd.chunk.css.map",
+    "static/css/main.cb943748.chunk.css.map": "/portfolio/static/css/main.cb943748.chunk.css.map",
     "static/media/Radek.png": "/portfolio/static/media/Radek.0f259bcf.png",
     "static/media/MainSite.css": "/portfolio/static/media/blur-codes-coding-577585.742ae99e.png",
     "static/media/krecha1.png": "/portfolio/static/media/krecha1.dc5cfa3a.png",
     "static/media/krecha2.png": "/portfolio/static/media/krecha2.7c49d8c3.png",
+    "static/media/laptop.png": "/portfolio/static/media/laptop.5661e387.png",
+    "static/media/ludek.png": "/portfolio/static/media/ludek.5d9721fa.png",
     "static/media/rm.png": "/portfolio/static/media/rm.ed35f2b4.png"
   }
 }
