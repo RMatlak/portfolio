@@ -1,21 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  font-family: Georgia, sans-serif;
-}
 
 .mainSite {
   display: flex;
+  height: 100vh;
   max-width: 1920px;
   position: relative;
   overflow: hidden;
 }
 
-.mainSite aside {
+.mainSite nav {
   flex-basis: 10%;
   background: rgb(32, 32, 32);
   background: linear-gradient(
@@ -25,7 +17,7 @@ html, body {
   );
 }
 
-.mainSite aside img {
+.mainSite nav img {
   display: block;
   width: 55%;
   margin: 30% auto;
@@ -33,7 +25,7 @@ html, body {
   opacity: 0.6;
 }
 
-.mainSite aside img:hover {
+.mainSite nav img:hover {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -67,18 +59,18 @@ html, body {
 }
 .mainSite main div.Hello img.Stripe {
   position: absolute;
-  width: 60%;
+  width: 75%;
   opacity: 0.3;
 }
 
 .mainSite main div.Hello img {
   width: 80%;
-  margin-left: -13%;
+  margin-left: -11%;
 }
 
 .mainSite main div.Hello p {
-  color: #ffffff;
-  font-size: 32px;
+  color: #eee;
+  font-size: 54px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -97,7 +89,7 @@ html, body {
 }
 
 @media (max-width: 1660px) {
-  .mainSite aside img {
+  .mainSite nav img {
     width: 65%;
   }
 
@@ -114,7 +106,7 @@ html, body {
 }
 
 @media (max-width: 1440px) {
-  .mainSite aside img {
+  .mainSite nav img {
     width: 65%;
     margin: 50% auto;
   }
@@ -131,11 +123,11 @@ html, body {
   .mainSite main div.Hello {
     top: 28%;
     left: 48%;
-    width: 30%;
+    width: 40%;
   }
 
   .mainSite main div.Hello p {
-    font-size: 30px;
+    font-size: 44px;
   }
 
   .mainSite footer p {
@@ -148,7 +140,7 @@ html, body {
 }
 
 @media (max-width: 1280px) {
-  .mainSite aside img {
+  .mainSite nav img {
     width: 70%;
     margin: 55% auto;
   }
@@ -173,7 +165,7 @@ html, body {
   }
 
   .mainSite main div.Hello p {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .mainSite footer p {
@@ -182,7 +174,7 @@ html, body {
 }
 
 @media (max-width: 1024px) {
-  .mainSite aside img {
+  .mainSite nav img {
     width: 75%;
     margin: 70% auto;
   }
@@ -217,7 +209,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  .mainSite aside {
+  .mainSite nav {
     position: fixed;
     width: 200px;
     height: 100%;
@@ -226,7 +218,7 @@ html, body {
     z-index: 1;
   }
 
-  .mainSite aside img {
+  .mainSite nav img {
     width: 60%;
     margin: 35% auto;
   }
@@ -250,9 +242,9 @@ html, body {
   }
 
   .mainSite main div.Hello img.Stripe {
-    width: 172%;
-    left: -10%;
-    top: 25%;
+    width: 120%;
+    left: -2%;
+    top: 2%;
   }
 
   .mainSite main div.Hello p {
@@ -274,13 +266,13 @@ html, body {
   }
 }
 @media (max-width: 414px) {
-  .mainSite aside {
+  .mainSite nav {
     width: 130px;
     top: 0;
     left: -100%;
   }
 
-  .mainSite aside img {
+  .mainSite nav img {
     margin: 45% auto;
   }
 
@@ -293,23 +285,23 @@ html, body {
     top: 8vh;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 65%;
+    width: 80%;
   }
   .mainSite main div.Hello {
-    top: 48vh;
+    top: 50vh;
     left: 50%;
-    width: 40%;
+    width: 60%;
     transform: translate(-50%, 0);
   }
 
   .mainSite main div.Hello img.Stripe {
-    width: 172%;
-    left: -10%;
-    top: 25%;
+    width: 110%;
+    left: -2%;
+    top: 5%;
   }
 
   .mainSite main div.Hello p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .mainSite footer p {
@@ -335,23 +327,24 @@ html, body {
 }
 
 @media (max-width: 375px) {
-  .mainSite aside img {
+  .mainSite nav img {
     margin: 35% auto;
   }
 
   .mainSite main img.Me {
-    width: 75%;
+    width: 80%;
   }
   .mainSite main div.Hello {
-    width: 50%;
+    width: 60%;
+    top: 50vh;
   }
 
   .mainSite main div.Hello img.Stripe {
-    width: 150%;
+    width: 140%;
   }
 
   .mainSite main div.Hello p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .mainSite footer p {
@@ -363,23 +356,26 @@ html, body {
 }
 
 @media (max-width: 320px) {
-  .mainSite aside {
+  .mainSite nav {
     width: 120px;
   }
-  .mainSite aside img {
+  .mainSite nav img {
     width: 50%;
     margin: 30% auto;
   }
+  .mainSite main div.Hello {
+    top: 52vh;
+  }
 
   .mainSite main img.Me {
-    width: 70%;
+    width: 80%;
   }
   .mainSite main div.Hello img.Stripe {
-    width: 140%;
+    width: 120%;
   }
 
   .mainSite main div.Hello p {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .mainSite footer p {
@@ -394,7 +390,7 @@ html, body {
     z-index: 1;
   }
 
-  .mainSite aside img {
+  .mainSite nav img {
     width: 60%;
     margin: 35% auto;
   }
@@ -418,13 +414,13 @@ html, body {
   }
 
   .mainSite main div.Hello img.Stripe {
-    width: 120%;
-    left: -10%;
-    top: 25%;
+    width: 90%;
+    left: -6%;
+    top: 10%;
   }
 
   .mainSite main div.Hello p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .mainSite footer p {
@@ -443,54 +439,54 @@ html, body {
 }
 
 @media (orientation: landscape) and (max-width: 736px) {
-  .mainSite aside {
+  .mainSite nav {
     width: 100px;
     left: 0%;
     z-index: 1;
   }
 
-  .mainSite aside img {
-    width: 50%;
+  .mainSite nav img {
+    width: 45%;
     margin: 25% auto;
   }
   .mainSite main img.Me {
     left: 15%;
+    width: 40%;
+  }
+  .mainSite main div.Hello img.Stripe {
+    width: 85%;
+    left: -2%;
+    top: 10%;
   }
 
   .mainSite main div.Hello {
-    left: 60%;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 736px) {
-  .mainSite aside img {
-    width: 45%;
-    margin: 25% auto;
+    left: 57%;
   }
 }
 
 @media (orientation: landscape) and (max-width: 568px) {
-  .mainSite aside img {
+  .mainSite nav img {
     width: 50%;
     margin: 10% auto;
   }
 
   .mainSite main div.Hello p {
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .mainSite footer p {
     font-size: 16px;
   }
   .mainSite main img.Me {
-    left: 20%;
+    left: 18%;
     width: 40%;
   }
 
   .mainSite main div.Hello {
-    left: 65%;
+    left: 61%;
+    width: 35%;
   }
   .mainSite main div.Hello img.Stripe {
-    width: 130%;
+    width: 100%;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainSite.css";
+import { NavLink } from "react-router-dom";
 import img1 from "../../img/tytułowa/rm.png";
 import img2 from "../../img/tytułowa/ludek maøy.png";
 import img3 from "../../img/tytułowa/zeszyt.png";
@@ -12,33 +13,42 @@ import img9 from "../../img/tytułowa/krecha1.png";
 import img10 from "../../img/tytułowa/krecha.png";
 
 const MainSite = () => {
-
-  let vh = window.innerHeight;
-
   return (
     <>
-      <div className="mainSite" style={{height: vh}}>
-        <aside>
-          <img src={img1} alt="Main" />
-          <img src={img2} alt="About me" />
-          <img src={img3} alt="Offer" />
-          <img src={img4} alt="Portfolio" />
-          <img src={img5} alt="Contact" />
-        </aside>
+      <div className="mainSite">
+        <nav>
+          <ul>
+            <li>
+              <img src={img1} alt="Main" />
+            </li>
+            <li>
+              <NavLink to="/about">
+                <img src={img2} alt="About me" />
+              </NavLink>
+            </li>
+            <li>
+              <img src={img3} alt="Offer" />
+            </li>
+            <li>
+              <img src={img4} alt="Portfolio" />
+            </li>
+            <li>
+              <img src={img5} alt="Contact" />
+            </li>
+          </ul>
+        </nav>
         <main>
           <img src={img9} alt="" />
           <img className="Me" src={img6} alt="Me" />
           <div className="Hello">
             <img className="Stripe" src={img8} alt="stripe" />
             <img src={img7} alt="Hello" />
-            <p>
-              My name is Radek and I am junior front end developer.
-            </p>
+            <p>My name is Radek and I am junior front end developer.</p>
           </div>
         </main>
         <footer>
-            <p>Radosław Matlak Programming</p>
-            <img className="Footer" src={img10} alt=""/>
+          <p>Radosław Matlak Programming</p>
+          <img className="Footer" src={img10} alt="" />
         </footer>
       </div>
     </>

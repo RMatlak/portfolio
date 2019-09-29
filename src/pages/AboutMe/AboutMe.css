@@ -1,0 +1,45 @@
+main.AboutMe {
+    position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 87%,
+    rgba(0, 65, 49, 1) 100%
+  );
+}
+
+main.AboutMe img.person {
+    position: absolute;
+    width: 30%;
+    bottom: -15%;
+    left: -6%;
+}
+
+main.AboutMe header p {
+  margin: 10px 30px;
+  text-align: right;
+  color: #bbb;
+  font-size: 80px;
+  text-shadow: 7px 6px 5px #656565;
+  font-family: "Saira Stencil One", cursive;
+}
+
+main.AboutMe div  {
+    position: relative;
+  }
+
+main.AboutMe div img {
+  width: 60%;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+main.AboutMe div p {
+   font-size: 40px;
+   color: #bbb;
+   width: 40%;
+   text-align: center;
+  }
