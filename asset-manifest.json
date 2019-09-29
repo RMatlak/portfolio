@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.493c65cd.chunk.css",
+    "main.js": "/portfolio/static/js/main.ae17c60b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ae17c60b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.611d5448.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.611d5448.js.map",
+    "static/js/2.38ef67db.chunk.js": "/portfolio/static/js/2.38ef67db.chunk.js",
+    "static/js/2.38ef67db.chunk.js.map": "/portfolio/static/js/2.38ef67db.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.3084b81744acfed526efa60ffcddb68b.js": "/portfolio/precache-manifest.3084b81744acfed526efa60ffcddb68b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.493c65cd.chunk.css.map": "/portfolio/static/css/main.493c65cd.chunk.css.map",
+    "static/media/Radek.png": "/portfolio/static/media/Radek.0f259bcf.png",
+    "static/media/MainSite.css": "/portfolio/static/media/blur-codes-coding-577585.742ae99e.png",
+    "static/media/krecha1.png": "/portfolio/static/media/krecha1.dc5cfa3a.png",
+    "static/media/krecha2.png": "/portfolio/static/media/krecha2.7c49d8c3.png",
+    "static/media/rm.png": "/portfolio/static/media/rm.ed35f2b4.png"
+  }
+}
