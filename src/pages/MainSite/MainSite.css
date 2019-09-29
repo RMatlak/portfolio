@@ -1,0 +1,496 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Georgia, sans-serif;
+}
+
+.mainSite {
+  display: flex;
+  max-width: 1920px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainSite aside {
+  flex-basis: 10%;
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 32, 32, 1) 96%,
+    rgba(101, 101, 101, 1) 100%
+  );
+}
+
+.mainSite aside img {
+  display: block;
+  width: 55%;
+  margin: 30% auto;
+  transition: 0.2s;
+  opacity: 0.6;
+}
+
+.mainSite aside img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.mainSite main {
+  flex-basis: 90%;
+  background-image: url(C:\Users\Bartek\Desktop\Radek\strona-portfolio\src\img\tytułowa\blur-codes-coding-577585.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.mainSite main img.Me {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  width: 30%;
+}
+
+.mainSite main img:first-child {
+  position: absolute;
+  top: -5%;
+  width: 90%;
+  opacity: 0.3;
+}
+
+.mainSite main div.Hello {
+  position: relative;
+  top: 23%;
+  left: 45%;
+  width: 35%;
+}
+.mainSite main div.Hello img.Stripe {
+  position: absolute;
+  width: 60%;
+  opacity: 0.3;
+}
+
+.mainSite main div.Hello img {
+  width: 80%;
+  margin-left: -13%;
+}
+
+.mainSite main div.Hello p {
+  color: #ffffff;
+  font-size: 32px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.mainSite footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.mainSite footer p {
+  color: white;
+  font-size: 32px;
+  opacity: 0.2;
+  text-align: center;
+}
+
+@media (max-width: 1660px) {
+  .mainSite aside img {
+    width: 65%;
+  }
+
+  .mainSite main img.Me {
+    left: 18%;
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    position: absolute;
+    width: 75%;
+    opacity: 0.3;
+    top: 10%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .mainSite aside img {
+    width: 65%;
+    margin: 50% auto;
+  }
+  .mainSite main img:first-child {
+    top: -2%;
+    width: 92%;
+  }
+
+  .mainSite main img.Me {
+    top: 25%;
+    left: 14%;
+    width: 35%;
+  }
+  .mainSite main div.Hello {
+    top: 28%;
+    left: 48%;
+    width: 30%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 30px;
+  }
+
+  .mainSite footer p {
+    font-size: 28px;
+  }
+
+  .mainSite footer {
+    left: 55%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .mainSite aside img {
+    width: 70%;
+    margin: 55% auto;
+  }
+
+  .mainSite main img:first-child {
+    top: 0;
+  }
+
+  .mainSite main img.Me {
+    top: 25%;
+    left: 15%;
+    width: 35%;
+  }
+  .mainSite main div.Hello {
+    left: 54%;
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    width: 70%;
+    opacity: 0.3;
+    top: 15%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 28px;
+  }
+
+  .mainSite footer p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mainSite aside img {
+    width: 75%;
+    margin: 70% auto;
+  }
+
+  .mainSite main img:first-child {
+    right: 0;
+    width: 100%;
+  }
+
+  .mainSite main img.Me {
+    top: 25%;
+    left: 10%;
+    width: 45%;
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    width: 90%;
+    left: 0;
+    top: 15%;
+  }
+
+  .mainSite footer p {
+    font-size: 24px;
+  }
+  .mainSite footer img {
+    width: 100%;
+  }
+  .mainSite main div.Hello img {
+    width: 95%;
+    margin-left: -13%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSite aside {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+  }
+
+  .mainSite aside img {
+    width: 60%;
+    margin: 35% auto;
+  }
+
+  .mainSite main {
+    flex-basis: 100%;
+  }
+
+  .mainSite main img:first-child {
+    width: 120%;
+  }
+
+  .mainSite main img.Me {
+    top: 25%;
+    left: 0;
+    width: 55%;
+  }
+  .mainSite main div.Hello {
+    top: 28%;
+    left: 55%;
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    width: 172%;
+    left: -10%;
+    top: 25%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 28px;
+  }
+
+  .mainSite footer p {
+    font-size: 28px;
+  }
+  .mainSite footer img {
+    width: 100%;
+  }
+  .mainSite main div.Hello img {
+    width: 100%;
+  }
+
+  .mainSite footer {
+    width: 70%;
+  }
+}
+@media (max-width: 414px) {
+  .mainSite aside {
+    width: 130px;
+    top: 0;
+    left: -100%;
+  }
+
+  .mainSite aside img {
+    margin: 45% auto;
+  }
+
+  .mainSite main img:first-child {
+    width: 130%;
+    right: -1%;
+  }
+
+  .mainSite main img.Me {
+    top: 8vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 65%;
+  }
+  .mainSite main div.Hello {
+    top: 48vh;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, 0);
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    width: 172%;
+    left: -10%;
+    top: 25%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 20px;
+  }
+
+  .mainSite footer p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .mainSite footer img {
+    width: 100%;
+  }
+  .mainSite main div.Hello img {
+    width: 110%;
+  }
+
+  .mainSite footer {
+    width: 100%;
+    left: 50%;
+  }
+
+  .mainSite footer img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .mainSite aside img {
+    margin: 35% auto;
+  }
+
+  .mainSite main img.Me {
+    width: 75%;
+  }
+  .mainSite main div.Hello {
+    width: 50%;
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    width: 150%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 20px;
+  }
+
+  .mainSite footer p {
+    font-size: 20px;
+  }
+  .mainSite footer img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .mainSite aside {
+    width: 120px;
+  }
+  .mainSite aside img {
+    width: 50%;
+    margin: 30% auto;
+  }
+
+  .mainSite main img.Me {
+    width: 70%;
+  }
+  .mainSite main div.Hello img.Stripe {
+    width: 140%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 16px;
+  }
+
+  .mainSite footer p {
+    font-size: 16px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 823px) {
+  .mainSite aside {
+    width: 120px;
+    left: 0%;
+    z-index: 1;
+  }
+
+  .mainSite aside img {
+    width: 60%;
+    margin: 35% auto;
+  }
+
+  .mainSite main {
+    flex-basis: 100%;
+  }
+
+  .mainSite main img:first-child {
+    width: 90%;
+  }
+
+  .mainSite main img.Me {
+    top: 10vh;
+    left: 10%;
+    width: 35%;
+  }
+  .mainSite main div.Hello {
+    top: 15%;
+    left: 45%;
+  }
+
+  .mainSite main div.Hello img.Stripe {
+    width: 120%;
+    left: -10%;
+    top: 25%;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 20px;
+  }
+
+  .mainSite footer p {
+    font-size: 20px;
+  }
+  .mainSite footer img {
+    width: 100%;
+  }
+  .mainSite main div.Hello img {
+    width: 100%;
+  }
+
+  .mainSite footer {
+    width: 70%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 736px) {
+  .mainSite aside {
+    width: 100px;
+    left: 0%;
+    z-index: 1;
+  }
+
+  .mainSite aside img {
+    width: 50%;
+    margin: 25% auto;
+  }
+  .mainSite main img.Me {
+    left: 15%;
+  }
+
+  .mainSite main div.Hello {
+    left: 60%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 736px) {
+  .mainSite aside img {
+    width: 45%;
+    margin: 25% auto;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 568px) {
+  .mainSite aside img {
+    width: 50%;
+    margin: 10% auto;
+  }
+
+  .mainSite main div.Hello p {
+    font-size: 16px;
+  }
+
+  .mainSite footer p {
+    font-size: 16px;
+  }
+  .mainSite main img.Me {
+    left: 20%;
+    width: 40%;
+  }
+
+  .mainSite main div.Hello {
+    left: 65%;
+  }
+  .mainSite main div.Hello img.Stripe {
+    width: 130%;
+  }
+}
